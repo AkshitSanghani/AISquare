@@ -1,0 +1,141 @@
+:root {
+    --button-bg: #0A2540;
+    --button-hover-bg: #3d5974;
+  }
+.navbar-parent{
+    background: #E5F2FF;
+    justify-content: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 65%;
+    height: 12vh;
+};
+.nav-link{
+    font-weight: bold !important;
+}
+.btn .search_btn{
+    background-color: var(--button-bg) !important;
+    color: white;
+}
+.input-group{
+    max-width: 75%;
+}
+.btn .quests_btn{
+    border-radius: 10px;
+}
+.aisquare_white_logo{
+    height: 75%;
+}
+.logo_section_links{
+    margin-left: 30px;
+}
+.join_btn{
+    background-color: var(--button-bg);
+    color: #fff;
+    border: none;
+    padding: 4px;
+    width: 10vw;
+    border-radius: 20px;
+}
+.join_btn:hover{
+    background-color: var(--button-hover-bg);
+    color: black;
+}
+.logo_container{
+    margin-left: 5vw;
+}
+.firefly_section {
+    height: 100vh;
+    background: url("https://s3-alpha-sig.figma.com/img/3737/c65e/c8a7b391cee618ad5953e5a958ead7bd?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Oa8Rjoebj-~088tQGaCyzgCqpDkzq5j035aQuq5C9kHRkgB1vjBIZD~N5WRWRqT2fs2QMel9Y04HD5hZmb5fCoO5qJw6zEiiDqdXR7kaWWrb43Q4etH-pmzup3nsJpNdYN7gnK22KnH4BUQabN9aKgLsOslt~9cu2C6BxWl6d9CWkuOWXtgxfWl6lVmeTSvsH8BFUhWCmJu-6as5bntKFgik8mEhaVE-YC6WKEjsKooxZEcIX5aBsAId-AolOiJBpKRPsiIuS8FC97HqAb6h2FZLTxHdoIzQi~3qM7R66NRi~7xHhMMPorCi915IfRlzhGBjXnszmn52yUk8ag12fg__");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden; /* Prevents pseudo-element overflow */
+}
+
+.firefly_section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("./assets/Rectangle2.png") no-repeat center center;
+    background-size: cover; /* Adjust as needed */
+    opacity: 0.6; /* Semi-transparent overlay */
+    z-index: 1;
+}
+
+.firefly_section h4 {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 37px;
+}
+
+.firefly_info {
+color: #fff;
+font-weight: 400;
+}
+
+.ai_info_header{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+    color: #0A2540;
+}
+.learning_container{
+    background-color: #0A2540;
+    background-size: cover;
+}
+.ai_learning_header{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+    color: #fff;
+}
+.ai_learning_p{color: #fff;}
+.learning_section_links{
+    margin-left: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.learning_card{
+    border-radius: 59px;
+    background: url("https://s3-alpha-sig.figma.com/img/3365/021d/a70d4555ce147b5cabc4c900f7308661?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HExH0OyU8vILILfoztDfiVtK7qvKySoyiPAdh3FaVloQi1AM16ot1FE-MNwG4bTFC57XrQTOgH-B9oY~Ucel-aTlKr2Wo~RnjDBphXJTTI816s1cmnkJfGuB3SzIzN7Oj5OLw9o~caY0vSEJRHotpLUt1Eo8O3Dkk6RJQYrUCdk2t9eiwn7TXcdKPWxaO7EJfAdPdduyoiQtnIAdPqtaxzyS5KBKibHMXKhPBJBHr6go4-4KzQzsluQNQLLTdHPQDPHCajTWXaCnw41tGco1a3IiBrKkNyiNR5TnH9CRculMkEvfoe-jrEylqSxh6xglR3qX88WajV~rhshg~TJK~g__");
+    h5{color: #fff;}
+    p{color: #fff;}
+}
+.learning_card_list{
+    background-color: #0A2540;
+    color: #fff;
+}
+.learning_quiz_card{
+    width: 72%;
+    height: 60vh;
+    padding: 15px;;
+    .learning-quiz-btn {
+        width: 200px; /* Set button width */
+        background-color: transparent;
+        border: 1px solid #00695c; /* Border color and thickness */
+        margin-top: 3px;
+        border-radius: 5px;
+    }
+    .check_btn{
+        border: none;
+        background-color: #00695c; /* Border color and thickness */
+        width: 200px; /* Set button width */
+        border-radius: 10px;
+        margin-top: 3px;
+        color: #fff;
+    }
+}
+.learning_insights_image{
+    height: 83%;
+    border-radius: 5px;
+}
