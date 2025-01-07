@@ -2,6 +2,9 @@
     --button-bg: #0A2540;
     --button-hover-bg: #3d5974;
   }
+  .blue_gradient_background{
+    background-image: linear-gradient(#0A2540, #244E77);
+  }
 .navbar-parent{
     background: #E5F2FF;
     justify-content: center;
@@ -11,11 +14,14 @@
     height: 12vh;
 };
 .nav-link{
-    font-weight: bold !important;
+    font-weight: 700 !important;
 }
 .btn .search_btn{
     background-color: var(--button-bg) !important;
     color: white;
+}
+.arrow-icon{
+    margin-left: 4px;
 }
 .input-group{
     max-width: 75%;
@@ -33,9 +39,10 @@
     background-color: var(--button-bg);
     color: #fff;
     border: none;
-    padding: 4px;
-    width: 10vw;
+    padding: 6px;
+    width: 11vw;
     border-radius: 20px;
+    font-size: 13px;
 }
 .join_btn:hover{
     background-color: var(--button-hover-bg);
@@ -88,10 +95,6 @@ font-weight: 400;
     font-size: 37px;
     color: #0A2540;
 }
-.learning_container{
-    background-color: #0A2540;
-    background-size: cover;
-}
 .ai_learning_header{
     font-family: "Poppins", serif;
     font-weight: 400;
@@ -139,3 +142,51 @@ font-weight: 400;
     height: 83%;
     border-radius: 5px;
 }
+.earn_image_top{
+    height: 30%;
+    border-radius: 5px;
+}
+.earn_image_bottom{
+    height: 30%;
+    border-radius: 5px;
+}
+.discover_section_icon{height: 35px;}
+.popular_games_container{background-image: linear-gradient(#0A2540, #244E77);}
+.math_premier_league_card{background-image: linear-gradient(#00695C, #0F8879);}
+.python_challengers_card{background-image: linear-gradient(#6B5B95, #8B7FB8);}
+.ai_adventures_card{background-image: linear-gradient(#FFA500, #FFB039);}
+.community_images{height:40vh;}
+
+.users_section{
+    border-radius: 5px;
+    color: #fff;
+}
+.aisquare_blue_logo{
+    background-image: url(assets/blue_logo_gradient.png);
+}
+.demo_button{
+    border: 1px solid #0A66C2;
+    background: transparent;
+    color: #0A2540;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 20vw;
+}
+.started_button{
+    border: none;
+    background: #0A2540;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 16vw;
+}
+.footer_logo{
+    height: 75%;
+}
+
+/* FONTS */
+.poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
