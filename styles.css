@@ -16,10 +16,36 @@
     width: 65%;
     height: 12vh;
 };
-.btn .search_btn{
-    background-color: var(--button-bg) !important;
-    color: white;
+.nav-link{
+    font-size: 14px;
 }
+.search-bar {
+    border-radius: 50px;
+    border-radius: 5px !important;
+  }
+  .search-button {
+    background: #0A2540;
+    color: #fff;
+    width: 7vw;
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+    border: none;
+  }
+  .search-button:hover {
+    background: #2b4056;
+    color: #fff;
+  }
+  .quests-button {
+    border: 1px solid #0A2540;
+    width: 8vw;
+    border-radius: 7px !important;
+  }
+  .quests-button:hover {
+    background-color: #0A2540;
+    color: #fff;
+  }
+
+
 .arrow-icon{
     margin-left: 4px;
 }
@@ -30,20 +56,51 @@
     border-radius: 10px;
 }
 .aisquare_white_logo{
-    height: 75%;
+    height: 25%;
 }
 .logo_section_links{
-    margin-left: 30px;
     color: #020B15;;
 }
 .join_btn{
     background-color: var(--button-bg);
     color: #fff;
     border: none;
-    padding: 6px;
-    width: 11vw;
+    padding: 4.8px;
+    width: 11.5vw;
     border-radius: 20px;
-    font-size: 13px;
+    font-size: 12.3px;
+}
+.filefly_buttons{
+    z-index: 100;
+}
+.get_started_btn{
+    background-color: #fff;
+    color: #0A2540;
+    border: none;
+    padding: 4.8px;
+    width: 260px;
+    height: 49px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.get_started_btn:hover{
+    background-color: #d6d3d3;
+    color: #0A2540;
+}
+.try_btn{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 4.8px;
+    width: 314px;
+    height: 49px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 1.5vw;
+}
+.try_btn:hover{
+    background-color: #fff;
+    color: #0A2540;
 }
 .join_btn:hover{
     background-color: var(--button-hover-bg);
@@ -52,11 +109,15 @@
 .logo_container{
     margin-left: 5vw;
 }
+.logo-navbar{
+    background: transparent;
+}
 .firefly_section {
     height: 100vh;
     background: url("https://s3-alpha-sig.figma.com/img/3737/c65e/c8a7b391cee618ad5953e5a958ead7bd?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Oa8Rjoebj-~088tQGaCyzgCqpDkzq5j035aQuq5C9kHRkgB1vjBIZD~N5WRWRqT2fs2QMel9Y04HD5hZmb5fCoO5qJw6zEiiDqdXR7kaWWrb43Q4etH-pmzup3nsJpNdYN7gnK22KnH4BUQabN9aKgLsOslt~9cu2C6BxWl6d9CWkuOWXtgxfWl6lVmeTSvsH8BFUhWCmJu-6as5bntKFgik8mEhaVE-YC6WKEjsKooxZEcIX5aBsAId-AolOiJBpKRPsiIuS8FC97HqAb6h2FZLTxHdoIzQi~3qM7R66NRi~7xHhMMPorCi915IfRlzhGBjXnszmn52yUk8ag12fg__");
     background-size: cover;
     background-position: center;
+    
     position: relative;
     overflow: hidden; /* Prevents pseudo-element overflow */
 }
@@ -81,14 +142,16 @@
     font-family: "Poppins", serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 37px;
+    font-size: 48px;
 }
 
 .firefly_info {
-color: #fff;
-font-weight: 400;
+    color: #fff;
+    font-weight: 400;
+    z-index: 100;
+    font-size: 24px;
 }
-
+.growth_span{font-weight: 300;}
 .ai_info_header{
     font-family: "Poppins", serif;
     font-weight: 400;
@@ -112,6 +175,7 @@ font-weight: 400;
 .learning_card{
     border-radius: 59px;
     background: url("https://s3-alpha-sig.figma.com/img/3365/021d/a70d4555ce147b5cabc4c900f7308661?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HExH0OyU8vILILfoztDfiVtK7qvKySoyiPAdh3FaVloQi1AM16ot1FE-MNwG4bTFC57XrQTOgH-B9oY~Ucel-aTlKr2Wo~RnjDBphXJTTI816s1cmnkJfGuB3SzIzN7Oj5OLw9o~caY0vSEJRHotpLUt1Eo8O3Dkk6RJQYrUCdk2t9eiwn7TXcdKPWxaO7EJfAdPdduyoiQtnIAdPqtaxzyS5KBKibHMXKhPBJBHr6go4-4KzQzsluQNQLLTdHPQDPHCajTWXaCnw41tGco1a3IiBrKkNyiNR5TnH9CRculMkEvfoe-jrEylqSxh6xglR3qX88WajV~rhshg~TJK~g__");
+    background-image: radial-gradient(#A5EFFF33, #6EBFF40B, #4690D400);
     h5{color: #fff;}
     p{color: #fff;}
 }
@@ -119,20 +183,25 @@ font-weight: 400;
     background-color: #0A2540;
     color: #fff;
 }
+.quiz_buttons{
+    display: flex;
+    justify-content: center;
+}
 .learning_quiz_card{
     width: 72%;
     height: 60vh;
     padding: 15px;;
+    box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.2);
     .learning-quiz-btn {
         width: 200px; /* Set button width */
         background-color: transparent;
-        border: 1px solid #00695c; /* Border color and thickness */
+        border: 1px solid #207c70; /* Border color and thickness */
         margin-top: 3px;
         border-radius: 5px;
     }
     .check_btn{
         border: none;
-        background-color: #00695c; /* Border color and thickness */
+        background-color: #207c70; /* Border color and thickness */
         width: 200px; /* Set button width */
         border-radius: 10px;
         margin-top: 3px;
@@ -140,7 +209,7 @@ font-weight: 400;
     }
 }
 .learning_insights_image{
-    height: 83%;
+    height: 75%;
     border-radius: 5px;
 }
 .earn_image_top{
