@@ -4,17 +4,18 @@
   }
   .blue_gradient_background{
     background-image: linear-gradient(#0A2540, #244E77);
+    .line-decorator{
+        z-index: 100;
+    }
   }
-  a {
-  text-decoration: none;
-}
+
 .navbar-parent{
     background: #E5F2FF;
     justify-content: center;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     width: 65%;
-    height: 12vh;
+    height: 16vh;
 };
 .nav-link{
     font-size: 14px;
@@ -22,6 +23,7 @@
 .search-bar {
     border-radius: 50px;
     border-radius: 5px !important;
+    width: 736px;
   }
   .search-button {
     background: #0A2540;
@@ -154,7 +156,7 @@
 .growth_span{font-weight: 300;}
 .ai_info_header{
     font-family: "Poppins", serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     font-size: 37px;
     color: #0A2540;
