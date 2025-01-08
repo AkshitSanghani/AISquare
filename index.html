@@ -23,7 +23,8 @@
 </head>
 
 <body>
-    <!-- NAVBAR -->
+    <div class="header_section">
+            <!-- NAVBAR -->
     <div class="row d-flex justify-content-center">
         <nav class="navbar navbar-expand-lg navbar-parent h-100">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -96,9 +97,10 @@
             </div>
         </div>
     </div>
+    </div>
 
     <!-- FIREFLY IMAGE SECTION -->
-    <div class="row mt-5 firefly_section align-items-center">
+    <div class="row firefly_section align-items-center">
         <div class="col-md-6 d-flex justify-content-center">
             <h4 class="poppins-light">SUPERCHARGE <br><span class="growth_span">GROWTH</span></h4>
         </div>
@@ -119,7 +121,7 @@
     
 
     <!-- AI INFO SECTION -->
-    <div class="row mt-5 d-flex justify-content-center">
+    <div class="row d-flex justify-content-center ai_info_container">
         <div class="col-md-8 d-flex justify-content-center">
             <div>
                 <h5 class="ai_info_header text-center">More Than Just Learning.</h5><br>
@@ -230,113 +232,134 @@
     <!-- DISCOVER YOUR PATH SECTION -->
     <div class="row mt-5 d-flex justify-content-center">
         <div class="col-md-12">
-            <h4 class="text-center">Discover your path</h4>
+            <h4 class="text-center discover_header poppins-light">Discover your path</h4>
         </div>
-        <div class="col-md-12 mt-4 d-flex justify-content-center">
-            <!-- Individuals -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="assets/Person_Icon.png" class="discover_section_icon">
-                </div>
-                <div class="card-body">
-                    <p class="discover_title">For Individuals</p>
-                    <span>Play games to learn and develop new skills. Earn ELO and get recognized.</span>
-                </div>
-            </div>
-            <!-- Recruiters -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="assets/search_icon.png" class="discover_section_icon">
-                </div>
-                <div class="card-body">
-                    <p class="discover_title">For Recruiters</p>
-                    <span>Find and hire top talent based on their ELO scores.</span>
+        <div class="row d-flex justify-content-center p-3 gap-4">
+            <!-- Top Row -->
+            <div class="col-auto">
+                <div class="card discover_card">
+                    <div class="card-header">
+                        <img src="assets/Person_Icon.png" class="discover_section_icon">
+                    </div>
+                    <div class="card-body">
+                        <p class="discover_title poppins-light text-start">For Individuals</p>
+                        <span class="discover_p text-start">Play games to learn and develop new skills. Earn ELO and get recognized.</span>
+                    </div>
                 </div>
             </div>
-            <!-- Businesses -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="assets/Vector.png" class="discover_section_icon">
-                </div>
-                <div class="card-body">
-                    <p class="discover_title">For Businesses</p>
-                    <span>Train your employees with our gamified learning platform.</span>
-                </div>
-            </div>
-            <!-- Education -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="assets/Education.png" class="discover_section_icon">
-                </div>
-                <div class="card-body">
-                    <p class="discover_title">For Education</p>
-                    <span>Enhance curriculum with interactive tools and host student speedathons.</span>
+            <div class="col-auto">
+                <div class="card discover_card">
+                    <div class="card-header">
+                        <img src="assets/search_icon.png" class="discover_section_icon">
+                    </div>
+                    <div class="card-body">
+                        <p class="discover_title poppins-light text-start">For Recruiters</p>
+                        <span class="discover_p text-start">Find and hire top talent based on their ELO scores.</span>
+                    </div>
                 </div>
             </div>
-            <!-- Investors -->
-            <div class="card">
-                <div class="card-header">
-                    <img src="assets/Investor_Icon.png" class="discover_section_icon">
+            <div class="col-auto">
+                <div class="card discover_card">
+                    <div class="card-header">
+                        <img src="assets/Vector.png" class="discover_section_icon">
+                    </div>
+                    <div class="card-body">
+                        <p class="discover_title poppins-light text-start">For Businesses</p>
+                        <span class="discover_p text-start">Train your employees with our gamified learning platform.</span>
+                    </div>
                 </div>
-                <div class="card-body">
-                    <p class="discover_title">For Investors</p>
-                    <span>Invest in the future of tech talent and innovation.</span>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center p-3 gap-4">
+            <!-- Bottom Row -->
+            <div class="col-auto">
+                <div class="card discover_card">
+                    <div class="card-header">
+                        <img src="assets/Education.png" class="discover_section_icon">
+                    </div>
+                    <div class="card-body">
+                        <p class="discover_title poppins-light text-start">For Education</p>
+                        <span class="discover_p text-start">Enhance curriculum with interactive tools and host student speedathons.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="card discover_card">
+                    <div class="card-header">
+                        <img src="assets/Investor_Icon.png" class="discover_section_icon">
+                    </div>
+                    <div class="card-body">
+                        <p class="discover_title poppins-light text-start">For Investors</p>
+                        <span class="discover_p text-start">Invest in the future of tech talent and innovation.</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    
 
     <!-- POPULAR GAMES SECTION -->
     <div class="row mt-5 popular_games_container">
         <div class="col-md-12">
-            <h4 class="text-center mt-3 text-light">Popular Games</h4>
+            <h4 class="text-center mt-3 text-light popular_header poppins-light mb-5">Popular Games</h4>
         </div>
-        <div class="row d-flex justify-content-center h-100">
-            <div class="col-md-3">
-                <div class="card math_premier_league_card">
-                    <div class="card-header">Math Premier League</div>
-                    <div class="card-body"> ∑ </div>
-                    <div class="card-footer">
-                        <div>
-                            <p>Solve puzzles and enhance your skills.</p>
-                        </div>
-                        <div><button>Start Now</button></div>
+        <div class="row d-flex justify-content-center h-100 mb-5">
+            <!-- Math Premier League -->
+            <div class="col-auto mb-4">
+                <div class="card math_premier_league_card text-light text-start">
+                    <div class="card-header border-0 bg-transparent">
+                        <h5 class="mt-3">Math Premier League</h5>
+                    </div>
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="assets/E.png" alt="Math Icon" class="card-icon">
+                    </div>
+                    <div class="card-footer bg-transparent d-flex justify-content-between border-0">
+                        <p>Solve puzzles and enhance your skills.</p>
+                        <button class="btn btn-light popular_start_button" style="color: #00695C;">Start Now</button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card python_challengers_card">
-                    <div class="card-header">Python Challengers</div>
-                    <div class="card-body"> > </div>
-                    <div class="card-footer">
-                        <div>
-                            <p>Learn Python through interactive challenges.</p>
-                        </div>
-                        <div><button>Start Now</button></div>
+            <!-- Python Challengers -->
+            <div class="col-auto mb-4 mx-md-3">
+                <div class="card python_challengers_card text-light text-start">
+                    <div class="card-header border-0 bg-transparent">
+                        <h5 class="mt-3">Python Challengers</h5>
+                    </div>
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="assets/greater_sign.png" alt="Python Icon" class="card-icon">
+                    </div>
+                    <div class="card-footer bg-transparent d-flex justify-content-between border-0">
+                        <p>Learn Python through interactive challenges.</p>
+                        <button class="btn btn-light popular_start_button" style="color: #6B5B95;">Start Now</button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card ai_adventures_card">
-                    <div class="card-header">AI Adventures</div>
-                    <div class="card-body"> <img src="assets/adventure_icon.png"> </div>
-                    <div class="card-footer">
-                        <div>
-                            <p>Learn Python through interactive challenges.</p>
-                        </div>
-                        <div><button>Start Now</button></div>
+            <!-- AI Adventures -->
+            <div class="col-auto mb-4">
+                <div class="card ai_adventures_card text-light text-start">
+                    <div class="card-header border-0 bg-transparent">
+                        <h5 class="mt-3">AI Adventures</h5>
+                    </div>
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="assets/adventure_icon.png" alt="AI Icon" class="card-icon">
+                    </div>
+                    <div class="card-footer bg-transparent d-flex justify-content-between border-0">
+                        <p>Learn Python through interactive challenges.</p>
+                        <button class="btn btn-light popular_start_button" style="color: #FFA500;">Start Now</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    
+    
 
     <!-- COMMUNITY SECTION -->
     <div class="row mt-5 community_container d-flex">
         <div class="col-md-12">
-            <h4 class="text-center mt-3">Join a Community of Innovators</h4>
-            <p class="text-center">Learn, collaborate, and share with experts and peers to accelerate your growth.</p>
-            <p class="text-center">Explore real-world projects, join discussions, and build lasting connections.</p>
+            <h4 class="text-center mt-3 poppins-light community_header">Join a Community of Innovators</h4>
+            <p class="text-center community_p">Learn, collaborate, and share with experts and peers to accelerate your growth.</p>
+            <p class="text-center community_p">Explore real-world projects, join discussions, and build lasting connections.</p>
         </div>
         <div class="row">
             <!-- Creators and contributors -->

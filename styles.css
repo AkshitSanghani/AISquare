@@ -5,8 +5,15 @@
   .blue_gradient_background{
     background-image: linear-gradient(#0A2540, #244E77);
   }
-  a {
-  text-decoration: none;
+
+.header_section{
+    background-image: url(assets/semicircle_top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    background-position: bottom;
+    position: relative;
+    height: 300px;
 }
 .navbar-parent{
     background: #E5F2FF;
@@ -113,12 +120,11 @@
     background: transparent;
 }
 .firefly_section {
-    height: 100vh;
+    height: 182vh;
     background: url("https://s3-alpha-sig.figma.com/img/3737/c65e/c8a7b391cee618ad5953e5a958ead7bd?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Oa8Rjoebj-~088tQGaCyzgCqpDkzq5j035aQuq5C9kHRkgB1vjBIZD~N5WRWRqT2fs2QMel9Y04HD5hZmb5fCoO5qJw6zEiiDqdXR7kaWWrb43Q4etH-pmzup3nsJpNdYN7gnK22KnH4BUQabN9aKgLsOslt~9cu2C6BxWl6d9CWkuOWXtgxfWl6lVmeTSvsH8BFUhWCmJu-6as5bntKFgik8mEhaVE-YC6WKEjsKooxZEcIX5aBsAId-AolOiJBpKRPsiIuS8FC97HqAb6h2FZLTxHdoIzQi~3qM7R66NRi~7xHhMMPorCi915IfRlzhGBjXnszmn52yUk8ag12fg__");
     background-size: cover;
-    background-position: center;
-    
-    position: relative;
+    z-index: 1;
+    margin-top: -40px;
     overflow: hidden; /* Prevents pseudo-element overflow */
 }
 
@@ -128,11 +134,9 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background: url("./assets/Rectangle2.png") no-repeat center center;
-    background-size: cover; /* Adjust as needed */
-    opacity: 0.6; /* Semi-transparent overlay */
-    z-index: 1;
+    background: url(./assets/Rectangle2.png) no-repeat center center;
+    background-size: cover;
+    opacity: 0.6;
 }
 
 .firefly_section h4 {
@@ -152,6 +156,13 @@
     font-size: 24px;
 }
 .growth_span{font-weight: 300;}
+.ai_info_container{
+    background-image: url(assets/semicircle-bottom.png);
+    background-position: top;
+    margin: -40px;
+    height: 50vh;
+    align-items: center;
+}
 .ai_info_header{
     font-family: "Poppins", serif;
     font-weight: 400;
@@ -175,7 +186,7 @@
 .learning_card{
     border-radius: 59px;
     background: url("https://s3-alpha-sig.figma.com/img/3365/021d/a70d4555ce147b5cabc4c900f7308661?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HExH0OyU8vILILfoztDfiVtK7qvKySoyiPAdh3FaVloQi1AM16ot1FE-MNwG4bTFC57XrQTOgH-B9oY~Ucel-aTlKr2Wo~RnjDBphXJTTI816s1cmnkJfGuB3SzIzN7Oj5OLw9o~caY0vSEJRHotpLUt1Eo8O3Dkk6RJQYrUCdk2t9eiwn7TXcdKPWxaO7EJfAdPdduyoiQtnIAdPqtaxzyS5KBKibHMXKhPBJBHr6go4-4KzQzsluQNQLLTdHPQDPHCajTWXaCnw41tGco1a3IiBrKkNyiNR5TnH9CRculMkEvfoe-jrEylqSxh6xglR3qX88WajV~rhshg~TJK~g__");
-    background-image: radial-gradient(#A5EFFF33, #6EBFF40B, #4690D400);
+    background-image: radial-gradient(#A5EFFF33 20%,#6EBFF40B 4.48%, #4690D400 0%);
     h5{color: #fff;}
     p{color: #fff;}
 }
@@ -221,12 +232,132 @@
     border-radius: 5px;
 }
 .discover_section_icon{height: 35px;}
-.popular_games_container{background-image: linear-gradient(#0A2540, #244E77);}
-.math_premier_league_card{background-image: linear-gradient(#00695C, #0F8879);}
-.python_challengers_card{background-image: linear-gradient(#6B5B95, #8B7FB8);}
-.ai_adventures_card{background-image: linear-gradient(#FFA500, #FFB039);}
-.community_images{height:40vh;}
+.discover_card {
+    width: 337px; /* Smaller card width */
+    margin: 0 auto; /* Center-align cards */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+    padding: 2px;
+    height: 223px;
+}
 
+.discover_card .card-header {
+    text-align: left; /* Center the image */
+    background-color: #fff; /* Optional header background */
+    border: none;
+}
+
+.discover_section_icon {
+    width: 50px; /* Adjust icon size */
+    height: auto;
+}
+
+.discover_card .card-body {
+    text-align: left; /* Center text inside the card */
+}
+
+.discover_header{
+    font-size: 48px;
+    color: #0A2540;
+    font-weight: 600 !important;
+}
+
+.discover_title {
+    font-weight: 600 !important;
+    color: #0A2540 !important;
+    font-size: 22.83px; /* Title size */
+    margin-bottom: 0.5rem;
+}
+.discover_p{
+    font-size: 16.6px;
+    color: #0A2540;
+}
+
+.row.gap-4 {
+    gap: 1.5rem; /* Adds spacing between the cards */
+}
+
+.popular_header{font-size: 48px; color: #FFFFFF; font-weight: 600 !important;}
+.popular_games_container{
+    background-image: linear-gradient(#0A2540, #244E77);
+ /* General styling for the cards */
+.card {
+    width: 352px;
+    height: 458px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.popular_start_button{
+    font-size: 14px;
+    font-weight: 400 !important;
+}
+
+/* Math Premier League Card */
+.math_premier_league_card {
+    background-image: linear-gradient(#00695C, #0F8879);
+}
+
+/* Python Challengers Card */
+.python_challengers_card {
+    background-image: linear-gradient(#6B5B95, #8B7FB8);
+}
+
+/* AI Adventures Card */
+.ai_adventures_card {
+    background-image: linear-gradient(#FFA500, #FFB039);
+}
+
+/* Card Header */
+.card-header h5 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Card Footer */
+.card-footer p {
+    margin-bottom: 1rem;
+}
+
+.card-footer button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card-footer button:hover {
+    background-color: #e0e0e0;
+}
+
+
+ 
+}
+.math_premier_league_card{width: 352px; height: 458px; background-image: linear-gradient(#00695C, #0F8879);}
+.python_challengers_card{width: 352px; height: 458px; background-image: linear-gradient(#6B5B95, #8B7FB8);}
+.ai_adventures_card{width: 352px; height: 458px; background-image: linear-gradient(#FFA500, #FFB039);}
+.community_images{height:40vh;}
+.community_container{
+    .community_header{
+        font-weight: 600 !important;
+        color: #0A2540;
+        font-size: 48px;
+    }
+    .community_p{
+        font-weight: 600 !important;
+        font-size: 24px;
+        color: #0A2540;
+        margin: 0;
+    }
+}
 .users_section{
     border-radius: 5px;
     color: #fff;
