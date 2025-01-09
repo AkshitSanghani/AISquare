@@ -160,24 +160,44 @@
     background-image: url(assets/semicircle-bottom.png);
     background-position: top;
     margin: -40px;
-    height: 50vh;
+    height: 65vh;
     align-items: center;
 }
 .ai_info_header{
     font-family: "Poppins", serif;
-    font-weight: 400;
+    font-weight: 600 !important;
     font-style: normal;
     font-size: 37px;
     color: #0A2540;
 }
+.ai_info_sub_header{
+    color: #0A2540;
+    font-size: 27.66px;
+    font-weight: 300 !important;
+}
+.ai_info_p{
+    color: #0A2540;
+    font-size: 24px;
+    font-weight: 600 !important;
+}
 .ai_learning_header{
     font-family: "Poppins", serif;
-    font-weight: 400;
+    font-weight: 600 !important;
     font-style: normal;
     font-size: 37px;
     color: #fff;
 }
-.ai_learning_p{color: #fff;}
+.ai_learning_sub_header{
+    color: #fff;
+    font-size: 27.66px;
+    font-weight: 300 !important;
+}
+.ai_learning_p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600 !important;
+}
+
 .learning_section_links{
     margin-left: 30px;
     color: #fff;
