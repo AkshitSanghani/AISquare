@@ -435,6 +435,63 @@
         font-size: 20.26px;
     }
 }
+.footer_container{
+    ul{
+        list-style: none;
+    }
+    li{
+        font-size: 18px;
+        margin-top: 16px;
+        font-weight: 400 !important;
+        cursor: pointer;
+    }
+    .list_header{
+        color: #A4E0ED;
+        font-weight: 400 !important;
+    }
+    .footer_subscribe{
+        color: #fff;
+        font-weight: 400 !important;
+        margin-bottom: 16px;
+        font-size: 18px;
+        margin-top: 16px;
+    }
+    .footer_email {
+        width: 100%;
+        max-width: 400px;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        background-color: transparent;
+        color: white;
+        font-size: 16px;
+      }
+      
+      .footer_email::placeholder {
+        color: #ccc;
+        opacity: 1;
+      }
+      
+      .form-check {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: white;
+        font-size: 14px;
+      }
+      
+      .form-check-input {
+        width: 18px;
+        height: 18px;
+        margin: 0;
+        accent-color: white;
+      }
+      
+      .form-check-label {
+        color: white;
+      }
+}
 .aisquare_blue_logo{
     background-image: url(assets/blue_logo_gradient.png);
 }
