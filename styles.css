@@ -422,8 +422,17 @@
         font-weight: 300 !important;
         font-size: 16.32px;
     }
-    .dots_image{
-        
+}
+.potential_container{
+    .potential_header{
+        color: #0A2540;
+        font-weight: 600 !important;
+        font-size: 40.52px;
+    }
+    .potential_p{
+        color: #0A2540;
+        font-weight: 600 !important;
+        font-size: 20.26px;
     }
 }
 .aisquare_blue_logo{
