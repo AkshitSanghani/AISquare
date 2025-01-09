@@ -6,10 +6,10 @@
     background-image: linear-gradient(#0A2540, #244E77);
   }
   body {
-    margin: 0; /* Remove default margins */
-    padding: 0; /* Remove default paddings */
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-    width: 100vw; /* Ensure the body is restricted to the viewport width */
+    margin: 0; 
+    padding: 0; 
+    overflow-x: hidden; 
+    width: 100vw; 
   }
 
 .header_section{
@@ -23,9 +23,9 @@
     width: 102vw;
     .navbar-nav {
         display: flex;
-        justify-content: space-between; /* Ensures equal spacing between items */
-        width: 85%; /* Makes the navbar take the full width of its container */
-        padding: 0; /* Removes default padding for a cleaner look */
+        justify-content: space-between; 
+        width: 85%; 
+        padding: 0; 
     }
 }
 .navbar-parent{
@@ -140,10 +140,10 @@
     background-size: cover;
     z-index: 1;
     margin-top: -40px;
-    overflow: hidden; /* Prevents pseudo-element overflow */
+    overflow: hidden;
 }
 
-.firefly_section::before {
+/* .firefly_section::before {
     content: "";
     position: absolute;
     top: 0;
@@ -152,7 +152,7 @@
     background: url(./assets/Rectangle2.png) no-repeat center center;
     background-size: cover;
     opacity: 0.6;
-}
+} */
 
 .firefly_section h4 {
     position: relative;
@@ -285,16 +285,16 @@
     padding: 15px;;
     box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.2);
     .learning-quiz-btn {
-        width: 200px; /* Set button width */
+        width: 200px;
         background-color: transparent;
-        border: 1px solid #207c70; /* Border color and thickness */
+        border: 1px solid #207c70;
         margin-top: 3px;
         border-radius: 5px;
     }
     .check_btn{
         border: none;
-        background-color: #207c70; /* Border color and thickness */
-        width: 200px; /* Set button width */
+        background-color: #207c70;
+        width: 200px;
         border-radius: 10px;
         margin-top: 3px;
         color: #fff;
@@ -309,26 +309,26 @@
 }
 .discover_section_icon{height: 35px;}
 .discover_card {
-    width: 337px; /* Smaller card width */
-    margin: 0 auto; /* Center-align cards */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+    width: 337px; 
+    margin: 0 auto; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
     padding: 2px;
     height: 223px;
 }
 
 .discover_card .card-header {
-    text-align: left; /* Center the image */
-    background-color: #fff; /* Optional header background */
+    text-align: left; 
+    background-color: #fff; 
     border: none;
 }
 
 .discover_section_icon {
-    width: 50px; /* Adjust icon size */
+    width: 50px; 
     height: auto;
 }
 
 .discover_card .card-body {
-    text-align: left; /* Center text inside the card */
+    text-align: left; 
 }
 
 .discover_header{
@@ -340,7 +340,7 @@
 .discover_title {
     font-weight: 600 !important;
     color: #0A2540 !important;
-    font-size: 22.83px; /* Title size */
+    font-size: 22.83px; 
     margin-bottom: 0.5rem;
 }
 .discover_p{
@@ -349,13 +349,13 @@
 }
 
 .row.gap-4 {
-    gap: 1.5rem; /* Adds spacing between the cards */
+    gap: 1.5rem; 
 }
 
 .popular_header{font-size: 48px; color: #FFFFFF; font-weight: 600 !important;}
 .popular_games_container{
     background-image: linear-gradient(#0A2540, #244E77);
- /* General styling for the cards */
+ 
 .card {
     width: 352px;
     height: 458px;
@@ -376,28 +376,28 @@
     font-weight: 400 !important;
 }
 
-/* Math Premier League Card */
+
 .math_premier_league_card {
     background-image: linear-gradient(#00695C, #0F8879);
 }
 
-/* Python Challengers Card */
+
 .python_challengers_card {
     background-image: linear-gradient(#6B5B95, #8B7FB8);
 }
 
-/* AI Adventures Card */
+
 .ai_adventures_card {
     background-image: linear-gradient(#FFA500, #FFB039);
 }
 
-/* Card Header */
+
 .card-header h5 {
     font-size: 25px;
     font-weight: bold;
 }
 
-/* Card Footer */
+
 .card-footer p {
     margin-bottom: 1rem;
 }
@@ -516,13 +516,13 @@
         background-color: transparent;
         color: white;
         font-size: 16px;
-        outline: none; /* Removes the focus outline */
+        outline: none; 
       }
       
       .footer_email:focus {
-        outline: none; /* Ensures no outline appears on focus */
-        border: none; /* Prevents border from reappearing */
-        border-bottom: 1px solid white; /* Optional: Change the color of the bottom border when focused */
+        outline: none; 
+        border: none; 
+        border-bottom: 1px solid white; 
       }
       
       .footer_email::placeholder {
@@ -543,17 +543,17 @@
         width: 18px;
         height: 18px;
         margin: 0;
-        appearance: none; /* Removes default browser styles */
-        background-color: transparent; /* Transparent background */
-        border: 1px solid #fff; /* White border for the checkbox */
-        border-radius: 4px; /* Optional: makes the checkbox slightly rounded */
+        appearance: none; 
+        background-color: transparent; 
+        border: 1px solid #fff; 
+        border-radius: 4px; 
         display: inline-block;
         position: relative;
         cursor: pointer;
       }
       
       .form-check-input:checked {
-        background-color: transparent; /* Keeps background transparent when checked */
+        background-color: transparent; 
       }
       
       .form-check-input:checked::after {
@@ -563,9 +563,9 @@
         left: 6px;
         width: 5px;
         height: 10px;
-        border: solid #fff; /* White tick mark */
+        border: solid #fff; 
         border-width: 0 1px 1px 0;
-        transform: rotate(45deg); /* Creates the checkmark shape */
+        transform: rotate(45deg); 
       }
       
       
@@ -583,8 +583,8 @@
 }
 .logo_wrapper {
     position: relative;
-    width: 250px; /* Adjust overall wrapper size */
-    height: 150px; /* Height is reduced to align circles side-by-side */
+    width: 250px; 
+    height: 150px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -592,25 +592,25 @@
   
   .circle {
     position: absolute;
-    width: 150px; /* Circle size */
-    height: 110px; /* Circle size */
+    width: 150px; 
+    height: 110px; 
     border-radius: 50%;
     filter: blur(50px);
   }
   
   .pink_circle {
-    background: #cc78ed; /* Pink color */
+    background: #cc78ed; 
     right: 0;
   }
   
   .blue_circle {
-    background: #529ce3; /* Blue color */
+    background: #529ce3; 
     left: 0;
   }
   
   .aisquare_blue_logo {
     position: absolute;
-    width: 190px; /* Adjust logo size as needed */
+    width: 190px; 
     height: auto;
     z-index: 1;
   }
@@ -635,7 +635,7 @@
     height: 75%;
 }
 
-/* FONTS */
+
 .poppins-light {
     font-family: "Poppins", serif;
     font-weight: 300;
