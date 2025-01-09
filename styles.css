@@ -261,9 +261,14 @@
     background-color: #0A2540;
     color: #fff;
 }
+.quiz_buttons_container{
+    margin-top: 8vh;
+    height: 100%;
+}
 .quiz_buttons{
     display: flex;
     justify-content: center;
+    margin-top: 11px;
 }
 .learning_quiz_card{
     width: 72%;
