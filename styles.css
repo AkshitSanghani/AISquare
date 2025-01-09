@@ -410,6 +410,21 @@
 .users_section{
     border-radius: 5px;
     color: #fff;
+    .users_header{
+        font-weight: 600 !important;
+        font-size: 43.51px;
+    }
+    .users_quote{
+        font-weight: 300 !important;
+        font-size: 25.38px;
+    }
+    .users_author{
+        font-weight: 300 !important;
+        font-size: 16.32px;
+    }
+    .dots_image{
+        
+    }
 }
 .aisquare_blue_logo{
     background-image: url(assets/blue_logo_gradient.png);
