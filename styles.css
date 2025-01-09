@@ -256,6 +256,15 @@
     h5{color: #fff;}
     p{color: #fff;}
 }
+.white-line-container {
+    position: absolute;
+    top: 0;
+    left: 67px;
+    height: 70%;
+    background-image: url(assets/white_line.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+}
 .learning_card_list{
     font-weight: 650 !important;
     background-color: #0A2540;
