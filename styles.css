@@ -19,7 +19,7 @@
     z-index: 2;
     background-position: bottom;
     position: relative;
-    height: 300px;
+    height: 360px;
     width: 102vw;
     .navbar-nav {
         display: flex;
@@ -287,7 +287,7 @@
     }
 }
 .learning_insights_image{
-    height: 75%;
+    height: 85%;
     border-radius: 5px;
 }
 .earn_image_top{
