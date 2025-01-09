@@ -391,6 +391,21 @@
         color: #0A2540;
         margin: 0;
     }
+    .community_title{
+        color: #0A2540;
+        font-weight: 300 !important;
+        font-size: 24px;
+    }
+    .community_card_name{
+        color: #0A2540;
+        font-size: 14px;
+        font-weight: 900 !important;
+    }
+    .community_card_desc{
+        font-weight: 600 !important;
+        color: #0A2540;
+        font-size: 14.1px;
+    }
 }
 .users_section{
     border-radius: 5px;
