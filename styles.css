@@ -120,7 +120,7 @@
     background: transparent;
 }
 .firefly_section {
-    height: 182vh;
+    height: 130vh;
     background: url("https://s3-alpha-sig.figma.com/img/3737/c65e/c8a7b391cee618ad5953e5a958ead7bd?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Oa8Rjoebj-~088tQGaCyzgCqpDkzq5j035aQuq5C9kHRkgB1vjBIZD~N5WRWRqT2fs2QMel9Y04HD5hZmb5fCoO5qJw6zEiiDqdXR7kaWWrb43Q4etH-pmzup3nsJpNdYN7gnK22KnH4BUQabN9aKgLsOslt~9cu2C6BxWl6d9CWkuOWXtgxfWl6lVmeTSvsH8BFUhWCmJu-6as5bntKFgik8mEhaVE-YC6WKEjsKooxZEcIX5aBsAId-AolOiJBpKRPsiIuS8FC97HqAb6h2FZLTxHdoIzQi~3qM7R66NRi~7xHhMMPorCi915IfRlzhGBjXnszmn52yUk8ag12fg__");
     background-size: cover;
     z-index: 1;
