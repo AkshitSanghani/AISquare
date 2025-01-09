@@ -378,7 +378,7 @@
 .math_premier_league_card{width: 352px; height: 458px; background-image: linear-gradient(#00695C, #0F8879);}
 .python_challengers_card{width: 352px; height: 458px; background-image: linear-gradient(#6B5B95, #8B7FB8);}
 .ai_adventures_card{width: 352px; height: 458px; background-image: linear-gradient(#FFA500, #FFB039);}
-.community_images{height:40vh;}
+.community_images{width: 225.6px; border-radius: 10px;}
 .community_container{
     .community_header{
         font-weight: 600 !important;
@@ -395,6 +395,7 @@
         color: #0A2540;
         font-weight: 300 !important;
         font-size: 24px;
+        margin-left: 15px;
     }
     .community_card_name{
         color: #0A2540;
@@ -405,6 +406,9 @@
         font-weight: 600 !important;
         color: #0A2540;
         font-size: 14.1px;
+    }
+    .community_event_image{
+     height: 70%;
     }
 }
 .users_section{
