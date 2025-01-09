@@ -20,6 +20,13 @@
     background-position: bottom;
     position: relative;
     height: 300px;
+    width: 102vw;
+    .navbar-nav {
+        display: flex;
+        justify-content: space-between; /* Ensures equal spacing between items */
+        width: 85%; /* Makes the navbar take the full width of its container */
+        padding: 0; /* Removes default padding for a cleaner look */
+    }
 }
 .navbar-parent{
     background: #E5F2FF;
@@ -27,7 +34,7 @@
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     width: 65%;
-    height: 12vh;
+    height: 90px;
 };
 .nav-link{
     font-size: 14px;
@@ -72,7 +79,9 @@
     height: 25%;
 }
 .logo_section_links{
-    color: #020B15;;
+    color: #0A2540;
+    font-weight: 400 !important;
+    font-size: 14px;
 }
 .join_btn{
     background-color: var(--button-bg);
