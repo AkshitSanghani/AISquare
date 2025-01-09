@@ -197,7 +197,16 @@
     font-size: 24px;
     font-weight: 600 !important;
 }
-
+.learning_card_container{
+    .card-title{
+        font-weight: 600 !important;
+        font-size: 48px;
+    }
+    .card_content{
+        font-weight: 400 !important;
+        font-size: 24px;
+    }
+}
 .learning_section_links{
     margin-left: 30px;
     color: #fff;
@@ -207,10 +216,12 @@
     border-radius: 59px;
     background: url("https://s3-alpha-sig.figma.com/img/3365/021d/a70d4555ce147b5cabc4c900f7308661?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HExH0OyU8vILILfoztDfiVtK7qvKySoyiPAdh3FaVloQi1AM16ot1FE-MNwG4bTFC57XrQTOgH-B9oY~Ucel-aTlKr2Wo~RnjDBphXJTTI816s1cmnkJfGuB3SzIzN7Oj5OLw9o~caY0vSEJRHotpLUt1Eo8O3Dkk6RJQYrUCdk2t9eiwn7TXcdKPWxaO7EJfAdPdduyoiQtnIAdPqtaxzyS5KBKibHMXKhPBJBHr6go4-4KzQzsluQNQLLTdHPQDPHCajTWXaCnw41tGco1a3IiBrKkNyiNR5TnH9CRculMkEvfoe-jrEylqSxh6xglR3qX88WajV~rhshg~TJK~g__");
     background-image: radial-gradient(#A5EFFF33 20%,#6EBFF40B 4.48%, #4690D400 0%);
+    margin-bottom: 12vh;
     h5{color: #fff;}
     p{color: #fff;}
 }
 .learning_card_list{
+    font-weight: 650 !important;
     background-color: #0A2540;
     color: #fff;
 }
@@ -309,11 +320,13 @@
 }
 
 .card-icon {
-    width: 60px;
-    height: 60px;
+    width: 132px;
+    height: 150px;
 }
 
 .popular_start_button{
+    display: flex;
+    align-items: center;
     font-size: 14px;
     font-weight: 400 !important;
 }
@@ -352,6 +365,7 @@
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+    height: 50%;
 }
 
 .card-footer button:hover {
