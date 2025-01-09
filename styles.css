@@ -295,13 +295,8 @@
     height: 85%;
     border-radius: 5px;
 }
-.earn_image_top{
-    height: 30%;
-    border-radius: 5px;
-}
-.earn_image_bottom{
-    height: 30%;
-    border-radius: 5px;
+.earn_card{
+    width: 72%;
 }
 .discover_section_icon{height: 35px;}
 .discover_card {
