@@ -496,9 +496,40 @@
         color: white;
       }
 }
-.aisquare_blue_logo{
-    background-image: url(assets/blue_logo_gradient.png);
-}
+.logo_wrapper {
+    position: relative;
+    width: 250px; /* Adjust overall wrapper size */
+    height: 150px; /* Height is reduced to align circles side-by-side */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle {
+    position: absolute;
+    width: 150px; /* Circle size */
+    height: 110px; /* Circle size */
+    border-radius: 50%;
+    filter: blur(50px);
+  }
+  
+  .pink_circle {
+    background: #cc78ed; /* Pink color */
+    right: 0;
+  }
+  
+  .blue_circle {
+    background: #529ce3; /* Blue color */
+    left: 0;
+  }
+  
+  .aisquare_blue_logo {
+    position: absolute;
+    width: 190px; /* Adjust logo size as needed */
+    height: auto;
+    z-index: 1;
+  }
+  
 .demo_button{
     border: 1px solid #0A66C2;
     background: transparent;
