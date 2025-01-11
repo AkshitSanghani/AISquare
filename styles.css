@@ -247,6 +247,22 @@
     color: #fff;
     cursor: pointer;
 }
+.learning_section_buttons{
+    border: none;
+    background: transparent;
+    color: #fff;
+    width: 7vw;
+    height: 6vh;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+.learning_section_buttons:hover{
+
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    
+}
 .learning_card{
     z-index: 2;
     border-radius: 59px;
