@@ -251,7 +251,8 @@
     z-index: 2;
     border-radius: 59px;
     background: url("https://s3-alpha-sig.figma.com/img/3365/021d/a70d4555ce147b5cabc4c900f7308661?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HExH0OyU8vILILfoztDfiVtK7qvKySoyiPAdh3FaVloQi1AM16ot1FE-MNwG4bTFC57XrQTOgH-B9oY~Ucel-aTlKr2Wo~RnjDBphXJTTI816s1cmnkJfGuB3SzIzN7Oj5OLw9o~caY0vSEJRHotpLUt1Eo8O3Dkk6RJQYrUCdk2t9eiwn7TXcdKPWxaO7EJfAdPdduyoiQtnIAdPqtaxzyS5KBKibHMXKhPBJBHr6go4-4KzQzsluQNQLLTdHPQDPHCajTWXaCnw41tGco1a3IiBrKkNyiNR5TnH9CRculMkEvfoe-jrEylqSxh6xglR3qX88WajV~rhshg~TJK~g__");
-    background-image: radial-gradient(#A5EFFF33 20%,#6EBFF40B 4.48%, #4690D400 0%);
+    /* background-image: radial-gradient(#A5EFFF33 20%,#6EBFF40B 4.48%, #4690D400 0%); */
+    background-image: radial-gradient(#a5efff14 20%, #6ebff433 4.48%, #4690d424 0%);
     margin-bottom: 12vh;
     h5{color: #fff;}
     p{color: #fff;}
