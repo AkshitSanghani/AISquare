@@ -43,9 +43,9 @@
                     rewarded for helping others grow. Play, Learn, and Earn—all in one platform.</p>
              <div class="d-flex justify-content-center">
                 <div class="col-md-5 d-flex justify-content-between mt-4">
-                    <a class="learning_section_links poppins-light">Play</a>
-                    <a class="learning_section_links poppins-light">Learn</a>
-                    <a class="learning_section_links poppins-light">Earn</a>
+                    <a class="learning_section_links poppins-light" onclick="navigateTo('play_content')">Play</a>
+                    <a class="learning_section_links poppins-light" onclick="navigateTo('learn_content')">Learn</a>
+                    <a class="learning_section_links poppins-light" onclick="navigateTo('earn_content')">Earn</a>
                 </div>
              </div>
             </div>
@@ -59,7 +59,7 @@
                     </div>
                     <div class="card-body mt-3">
                         <!-- PLAY SECTION -->
-                        <div class="row">
+                        <div class="row" id="play_content">
                             <!-- left side -->
                             <div class="col-md-6 ps-5">
                                 <h5 class="card-title poppins-light">Play</h5>
@@ -88,7 +88,7 @@
                         </div>
 
                         <!-- LEARN SECTION -->
-                        <div class="row mt-5">
+                        <div class="row mt-5" id="learn_content">
                             <!-- left side -->
                             <div class="col-md-6 ps-5">
                                 <h5 class="card-title poppins-light">Learn</h5>
@@ -111,7 +111,7 @@
                         </div>
 
                         <!-- EARN SECTION -->
-                        <div class="row mt-3 mb-3">
+                        <div class="row mt-3 mb-3" id="earn_content">
                             <!-- left side -->
                             <div class="col-md-6 ps-5">
                                 <h5 class="card-title poppins-light">Earn</h5>
