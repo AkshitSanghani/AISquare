@@ -287,6 +287,47 @@
     background-color: #0A2540;
     color: #fff;
 }
+.custom-accordion {
+    /* color: #fff; */
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .custom-accordion-button::after {
+    content: none;
+  }
+  .accordion-button:not(.collapsed){
+    background-color: #0A2540;
+    color: #fff;
+  }
+  
+  .custom-accordion-item {
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .custom-accordion-button {
+    background-color: #0A2540;
+    color: #fff;
+    border: none;
+    text-align: left;
+    border-radius: 0;
+    padding: 15px 20px;
+  }
+  
+  .custom-accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .custom-accordion-body {
+    background-color: #0A2540;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+  }
+  
 .quiz_buttons_container{
     margin-top: 8vh;
     height: 100%;
@@ -331,6 +372,9 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
     padding: 2px;
     height: 223px;
+}
+.discover_card:hover {
+    transform: scale(1.1);
 }
 
 .discover_card .card-header {
@@ -384,6 +428,13 @@
 .card-icon {
     width: 132px;
     height: 150px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover{
+    .card-icon{
+        transform: scale(1.1);
+    }
 }
 
 .popular_start_button{
@@ -472,6 +523,10 @@
     }
     .community_event_image{
      height: 70%;
+    }
+    .ai_photo:hover{
+        transition: transform 0.3s ease-in-out;
+        transform: scale(1.08);
     }
 }
 .users_section{
