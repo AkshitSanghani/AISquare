@@ -21,7 +21,7 @@
     position: relative;
     height: 360px;
     width: 102vw;
-    .navbar-nav {
+    .navbar-parent .navbar-nav {
         display: flex;
         justify-content: space-between; 
         width: 85%; 
