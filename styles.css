@@ -426,9 +426,12 @@
 }
 
 .card-icon {
-    width: 132px;
-    height: 150px;
+    width: 85px;
+    height: 120px;
     transition: transform 0.3s ease-in-out;
+}
+.adventure_icon{
+    width: 115px !important;
 }
 
 .card:hover{
