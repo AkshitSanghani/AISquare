@@ -566,6 +566,31 @@
     }
     
     /* Text styling */
+    /* Static text displayed initially */
+.static-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.text-1{
+    font-size: 14px;
+    font-weight: 600 !important;
+    margin-bottom: 4px;
+}
+.text-2{
+    font-size: 10px;
+}
+
+/* Hide static text during hover */
+.event-container:hover .static-text {
+    opacity: 0;
+}
     .event-text {
         position: absolute;
         bottom: 10px;
