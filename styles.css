@@ -299,6 +299,14 @@
   .accordion-button:not(.collapsed){
     background-color: #0A2540;
     color: #fff;
+    box-shadow: none;
+  }
+  .accordion-item{
+    background: none;
+  }
+  #accordion-header{
+    font-size: 24px;
+    font-weight: 600 !important;
   }
   
   .custom-accordion-item {
@@ -325,7 +333,9 @@
     background-color: #0A2540;
     color: #fff;
     border: none;
-    padding: 15px 20px;
+    padding-left: 30px;
+    padding-top: 0px;
+    font-size: 20px;
   }
   
 .quiz_buttons_container{
@@ -358,12 +368,17 @@
         color: #fff;
     }
 }
-.learning_insights_image{
-    height: 85%;
-    border-radius: 5px;
+.play_image {
+    height: 550px;
+    width: 465px;
 }
-.earn_card{
-    width: 72%;
+.learning_insights_image{
+    width: 463px;
+    height: 600px;
+    border-radius: 30px;
+}
+.earn_image{
+    width: 465px;
 }
 .discover_section_icon{height: 35px;}
 .discover_card {
