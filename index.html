@@ -23,9 +23,756 @@
 </head>
 
 <body>
-    <div id="header"></div>
-    <div id="body"></div>
-    <div id="footer"></div>
+    <div class="header_section">
+        <!-- NAVBAR -->
+    <div class="row d-flex justify-content-center">
+    <nav class="navbar navbar-expand-lg navbar-parent">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center ms-3 me-3" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link logo_section_links poppins-light" href="#" style="text-decoration: underline;">For Individuals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link logo_section_links poppins-light" href="#">For Recruiters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link logo_section_links poppins-light" href="#">For Businesses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link logo_section_links poppins-light" href="#">For Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link logo_section_links poppins-light" href="#">For Sponsors</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+    
+    <!-- LOGO SECTION --> 
+    <div class="row d-flex justify-content-center mt-5">
+    <nav class="navbar navbar-expand-lg logo-navbar" style="width: 65%; height: 95%;">
+        <img src="assets/logo_white_transparent.png" width="187" height="46" alt="" class="me-4">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- left -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link logo_section_links poppins-light" href="#">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link logo_section_links poppins-light" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link logo_section_links poppins-light" href="#">About Us</a>
+            </li>
+          </ul>
+        </div>
+        <!-- right -->
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link logo_section_links poppins-light" href="#">Login</a>
+              </li>
+              <button class="join_btn ms-3 poppins-light"> Join for free <img src="assets/arrow.png" alt="arrow" class="arrow-icon" /> </button>
+            </ul>
+          </div>
+      </nav>
+    </div>
+    
+    <!-- SEARCH BAR SECTION -->
+    <div class="row mt-5 d-flex justify-content-center mb-5">
+    <div class="col-md-8 d-flex justify-content-center">
+        <div class="input-group">
+            <input type="text" class="form-control search-bar" placeholder="Find your next challenge">
+            <button class="btn search-button">Search</button>
+            <button class="btn ms-4 quests-button">Quests</button>
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- FIREFLY IMAGE SECTION -->
+    <div class="row firefly_section align-items-center">
+        <div class="col-md-6 d-flex justify-content-center">
+            <h4 class="poppins-light">SUPERCHARGE <br><span class="growth_span">GROWTH</span></h4>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center flex-column">
+            <span class="firefly_info">Harness AI to master new skills, share your expertise, and compete with others. Hire
+                skilled talent and elevate team performance with continuous learning and AI-powered tools.</span>
+          <div class="filefly_buttons">
+            <button class="get_started_btn mt-3 poppins-light"> 
+                Get Started Free 
+                <img src="assets/blue_arrow.png" alt="arrow" class="arrow-icon" style="width: 7%;"/> 
+            </button>
+            <button class="try_btn mt-3 poppins-light"> 
+                Try AISquare for Business
+            </button>
+          </div>
+        </div>
+    </div>
+    
+
+    <!-- AI INFO SECTION -->
+    <div class="row d-flex justify-content-center ai_info_container">
+        <div class="col-md-8 d-flex justify-content-center">
+            <div>
+                <h5 class="ai_info_header text-center poppins-light">More Than Just Learning.</h5><br>
+                <p class="ai_info_sub_header text-center poppins-light ">It's Your AI-Powered Journey to Play, Learn and Earn.</p>
+                <p class="ai_info_p text-center poppins-light">Engage with interactive challenges that make learning fun. Master new
+                    skills through personalized AI-driven experiences. Share your expertise and get rewarded for helping
+                    others grow. Play, Learn, and Earn—all in one platform.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- LEARNING SECTION -->
+    <div class="row mt-5 d-flex justify-content-center blue_gradient_background">
+        <div class="col-md-8 d-flex justify-content-center p-5">
+            <div>
+                <h5 class="ai_learning_header text-center poppins-light">More Than Just Learning.</h5><br>
+                <p class="ai_learning_sub_header text-center poppins-light">It's Your AI-Powered Journey to Play, Learn and Earn.</p>
+                <p class="ai_learning_p text-center poppins-light">Engage with interactive challenges that make learning fun.
+                    Master new skills through personalized AI-driven experiences. Share your expertise and get
+                    rewarded for helping others grow. Play, Learn, and Earn—all in one platform.</p>
+             <div class="d-flex justify-content-center">
+                <div class="col-md-5 d-flex justify-content-between mt-4">
+                    <a class="learning_section_links poppins-light" onclick="navigateTo('play_content')"><button class="learning_section_buttons">Play</button></a>
+                    <a class="learning_section_links poppins-light" onclick="navigateTo('learn_content')"><button class="learning_section_buttons">Learn</button></a>
+                    <a class="learning_section_links poppins-light" onclick="navigateTo('earn_content')"><button class="learning_section_buttons">Earn</button></a>
+                </div>
+             </div>
+            </div>
+        </div>
+        <!-- CARD SECTION -->
+        <div class="row d-flex justify-content-center learning_card_container">
+            <div class="col-md-10">
+                <div class="card learning_card p-5">
+                    <div class="white-line-container">
+                        <img src="assets/white_line.png" alt="" class="white_line">
+                    </div>
+                    <div class="card-body mt-3">
+                        <!-- PLAY SECTION -->
+                        <div class="row" id="play_content">
+                            <!-- left side -->
+                            <div class="col-md-6 ps-5">
+                                <h5 class="card-title poppins-light">Play</h5>
+                                <p class="card_content poppins-light">Turn learning into a game. Engage, compete, and rise through the ranks with
+                                    AI-powered challenges.</p>
+                                    <div class="accordion custom-accordion" id="learningAccordion">
+                                        <!-- Accordion Item 1 -->
+                                        <div class="accordion-item mt-2 custom-accordion-item">
+                                          <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button custom-accordion-button" id="accordion-header" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                              AI-Powered Quiz Challenges
+                                            </button>
+                                          </h2>
+                                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#learningAccordion">
+                                            <div class="accordion-body custom-accordion-body">
+                                              Experience interactive challenges generated by AI, tailored to your skills, making every session uniquely engaging.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      
+                                        <!-- Accordion Item 2 -->
+                                        <div class="accordion-item mt-2 custom-accordion-item">
+                                          <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button custom-accordion-button collapsed" id="accordion-header" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                              Real-Time Challenge With a Friend
+                                            </button>
+                                          </h2>
+                                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#learningAccordion">
+                                            <div class="accordion-body custom-accordion-body">
+                                              Compete live with friends or peers, testing your skills against others in real-time quizzes to see who comes out on top.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      
+                                        <!-- Accordion Item 3 -->
+                                        <div class="accordion-item mt-2 custom-accordion-item">
+                                          <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button custom-accordion-button collapsed" type="button" id="accordion-header" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Leaderboard Competitions & ELO Score
+                                            </button>
+                                          </h2>
+                                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#learningAccordion">
+                                            <div class="accordion-body custom-accordion-body">
+                                                Climb the leaderboards with every quiz you complete. Our ELO score ensures fair competition ranking users based on skill and progress.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      
+                                        <!-- Accordion Item 4 -->
+                                        <div class="accordion-item mt-2 custom-accordion-item">
+                                          <h2 class="accordion-header" id="headingFour">
+                                            <button class="accordion-button custom-accordion-button collapsed" id="accordion-header" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                              Monthly Hackathons and Speedathons
+                                            </button>
+                                          </h2>
+                                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#learningAccordion">
+                                            <div class="accordion-body custom-accordion-body">
+                                              Participate in high-intensity monthly challenges like hackathons and speedathons. Prove your mettle against the clock and win recognition.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                            </div>
+                            <!-- right side -->
+                            <div class="col-md-6 d-flex justify-content-end">
+                                <img class="play_image"
+                                src="../../assets/play_image.png">
+                            </div>
+                        </div>
+
+                        <!-- LEARN SECTION -->
+                        <div class="row mt-5" id="learn_content">
+                            <!-- left side -->
+                            <div class="col-md-6 ps-5">
+                                <h5 class="card-title poppins-light">Learn</h5>
+                                <p class="card_content poppins-light">Master new skills and accelerate your learning with AI-driven targeted quizzes
+                                    tailored to your skill level, expert content, and peer collaboration..</p>
+                                    <div class="accordion custom-accordion" id="learningAccordion">
+                                        <!-- Accordion Item 1 -->
+                                        <div class="accordion-item mt-2 custom-accordion-item">
+                                          <h2 class="accordion-header" id="learnheadingOne">
+                                            <button class="accordion-button custom-accordion-button" id="accordion-header" type="button" data-bs-toggle="collapse" data-bs-target="#learncollapseOne" aria-expanded="true" aria-controls="learncollapseOne">
+                                              QLLM AI Chatbot
+                                            </button>
+                                          </h2>
+                                          <div id="learncollapseOne" class="accordion-collapse collapse" aria-labelledby="learnheadingOne" data-bs-parent="#learningAccordion">
+                                            <div class="accordion-body custom-accordion-body">
+                                              Your AI tutor is available 24/7 to answer questions, provide hints, and guide you through complex problems.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      
+                                        <!-- Accordion Item 2 -->
+                                        <div class="accordion-item mt-2 custom-accordion-item">
+                                          <h2 class="accordion-header" id="learnheadingTwo">
+                                            <button class="accordion-button custom-accordion-button collapsed" id="accordion-header" type="button" data-bs-toggle="collapse" data-bs-target="#learncollapseTwo" aria-expanded="false" aria-controls="learncollapseTwo">
+                                              Interactive Learning modules by Experts
+                                            </button>
+                                          </h2>
+                                          <div id="learncollapseTwo" class="accordion-collapse collapse" aria-labelledby="learnheadingTwo" data-bs-parent="#learningAccordion">
+                                            <div class="accordion-body custom-accordion-body">
+                                              Learn by playing quizzes developed by industry experts.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      
+                                        <!-- Accordion Item 3 -->
+                                        <div class="accordion-item mt-2 custom-accordion-item">
+                                          <h2 class="accordion-header" id="learnheadingThree">
+                                            <button class="accordion-button custom-accordion-button collapsed" type="button" id="accordion-header" data-bs-toggle="collapse" data-bs-target="#learncollapseThree" aria-expanded="false" aria-controls="learncollapseThree">
+                                              Peer Learning
+                                            </button>
+                                          </h2>
+                                          <div id="learncollapseThree" class="accordion-collapse collapse" aria-labelledby="learnheadingThree" data-bs-parent="#learningAccordion">
+                                            <div class="accordion-body custom-accordion-body">
+                                              Build your network by connecting with peers and experts. Engage in a community or get one-on-one expert guidance.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      
+                                        <!-- Accordion Item 4 -->
+                                        <div class="accordion-item mt-2 custom-accordion-item">
+                                          <h2 class="accordion-header" id="learnheadingFour">
+                                            <button class="accordion-button custom-accordion-button collapsed" id="accordion-header" type="button" data-bs-toggle="collapse" data-bs-target="#learncollapseFour" aria-expanded="false" aria-controls="learncollapseFour">
+                                              Skill Assesments & ELO Scoring
+                                            </button>
+                                          </h2>
+                                          <div id="learncollapseFour" class="accordion-collapse collapse" aria-labelledby="learnheadingFour" data-bs-parent="#learningAccordion">
+                                            <div class="accordion-body custom-accordion-body">
+                                              Asses your progress with AI-driven evaluations that provide personalised feedback and measure your growth using the ELO system.
+                                            </div>
+                                          </div>
+                                        </div>
+                                    
+                                        <!-- Accordion Item 5 -->
+                                        <div class="accordion-item mt-2 custom-accordion-item">
+                                          <h2 class="accordion-header" id="learnheadingFive">
+                                            <button class="accordion-button custom-accordion-button collapsed" id="accordion-header" type="button" data-bs-toggle="collapse" data-bs-target="#learncollapseFive" aria-expanded="false" aria-controls="learncollapseFive">
+                                              SuperPowers
+                                            </button>
+                                          </h2>
+                                          <div id="learncollapseFive" class="accordion-collapse collapse" aria-labelledby="learnheadingFive" data-bs-parent="#learningAccordion">
+                                            <div class="accordion-body custom-accordion-body">
+                                              Automate your learning journey, get suggested resources, get your queries answered, and execute like a superdeveloper.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                            </div>
+                            <!-- right side -->
+                            <div class="col-md-6 d-flex justify-content-end">
+                                <img class="learning_insights_image"
+                                src="../../assets/learn_image.png">
+                            </div>
+                        </div>
+
+                        <!-- EARN SECTION -->
+                        <div class="row mt-3 mb-3" id="earn_content">
+                            <!-- left side -->
+                            <div class="col-md-6 ps-5">
+                                <h5 class="card-title poppins-light">Earn</h5>
+                                <p class="card_content poppins-light">Turn your expertise into income. Share your knowledge, create content, and earn
+                                    rewards as you help others grow.</p>
+                                    <div class="accordion custom-accordion" id="learningAccordion">
+                                        <!-- Accordion Item 1 -->
+                                        <div class="accordion-item mt-2 custom-accordion-item">
+                                          <h2 class="accordion-header" id="earnheadingOne">
+                                            <button class="accordion-button custom-accordion-button" id="accordion-header" type="button" data-bs-toggle="collapse" data-bs-target="#earncollapseOne" aria-expanded="true" aria-controls="earncollapseOne">
+                                              Monetize Your Expertise via Creator Studio
+                                            </button>
+                                          </h2>
+                                          <div id="earncollapseOne" class="accordion-collapse collapse" aria-labelledby="earnheadingOne" data-bs-parent="#learningAccordion">
+                                            <div class="accordion-body custom-accordion-body">
+                                              Leverage the platform's AI to create and publish quizzes through the Creator Studio, and monetize your work as learners engage with your content. Focus on quality, while AI assists with generation and suggestions.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      
+                                        <!-- Accordion Item 2 -->
+                                        <div class="accordion-item mt-2 custom-accordion-item">
+                                          <h2 class="accordion-header" id="earnheadingTwo">
+                                            <button class="accordion-button custom-accordion-button collapsed" id="accordion-header" type="button" data-bs-toggle="collapse" data-bs-target="#earncollapseTwo" aria-expanded="false" aria-controls="earncollapseTwo">
+                                                Get Job Opportunities
+                                            </button>
+                                          </h2>
+                                          <div id="earncollapseTwo" class="accordion-collapse collapse" aria-labelledby="earnheadingTwo" data-bs-parent="#learningAccordion">
+                                            <div class="accordion-body custom-accordion-body">
+                                              Your expertise doesn't go unnoticed. As you rise through the leaderboard, unlock exclusive job oppurtunities from top companies.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      
+                                        <!-- Accordion Item 3 -->
+                                        <div class="accordion-item mt-2 custom-accordion-item">
+                                          <h2 class="accordion-header" id="earnheadingThree">
+                                            <button class="accordion-button custom-accordion-button collapsed" type="button" id="accordion-header" data-bs-toggle="collapse" data-bs-target="#earncollapseThree" aria-expanded="false" aria-controls="earncollapseThree">
+                                                Host Expert Sessions
+                                            </button>
+                                          </h2>
+                                          <div id="earncollapseThree" class="accordion-collapse collapse" aria-labelledby="earnheadingThree" data-bs-parent="#learningAccordion">
+                                            <div class="accordion-body custom-accordion-body">
+                                              Take teaching to the next level by hosting live sessions where you share insights, answer questions, and mentor learners directly.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      
+                                        <!-- Accordion Item 4 -->
+                                        <div class="accordion-item mt-2 custom-accordion-item">
+                                          <h2 class="accordion-header" id="earnheadingFour">
+                                            <button class="accordion-button custom-accordion-button collapsed" id="accordion-header" type="button" data-bs-toggle="collapse" data-bs-target="#earncollapseFour" aria-expanded="false" aria-controls="earncollapseFour">
+                                                Connect with your audience
+                                            </button>
+                                          </h2>
+                                          <!-- <div id="earncollapseFour" class="accordion-collapse collapse" aria-labelledby="earnheadingFour" data-bs-parent="#learningAccordion">
+                                            <div class="accordion-body custom-accordion-body">
+                                              Four-word body text here.
+                                            </div>
+                                          </div> -->
+                                        </div>
+                                      </div>
+                            </div>
+                            <!-- right side -->
+                            <div class="col-md-6 d-flex justify-content-end">
+                                <img class="earn_image"
+                                src="../../assets/earn_image.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <img src="assets/stroke_logo.png" alt="" srcset="" class="str_logo stroke_logo">
+        <img src="assets/stroke_logo.png" alt="" srcset="" class="str_logo stroke_logo2">
+        <img src="assets/stroke_logo.png" alt="" srcset="" class="str_logo stroke_logo3">
+    </div>
+
+    <!-- DISCOVER YOUR PATH SECTION -->
+    <div class="row mt-5 d-flex justify-content-center">
+        <div class="col-md-12">
+            <h4 class="text-center discover_header poppins-light">Discover your path</h4>
+        </div>
+        <div class="row d-flex justify-content-center p-3 gap-4">
+            <!-- Top Row -->
+            <div class="col-auto">
+                <div class="card discover_card">
+                    <div class="card-header">
+                        <img src="assets/Person_Icon.png" class="discover_section_icon">
+                    </div>
+                    <div class="card-body">
+                        <p class="discover_title poppins-light text-start">For Individuals</p>
+                        <span class="discover_p text-start">Play games to learn and develop new skills. Earn ELO and get recognized.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="card discover_card">
+                    <div class="card-header">
+                        <img src="assets/search_icon.png" class="discover_section_icon">
+                    </div>
+                    <div class="card-body">
+                        <p class="discover_title poppins-light text-start">For Recruiters</p>
+                        <span class="discover_p text-start">Find and hire top talent based on their ELO scores.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="card discover_card">
+                    <div class="card-header">
+                        <img src="assets/Vector.png" class="discover_section_icon">
+                    </div>
+                    <div class="card-body">
+                        <p class="discover_title poppins-light text-start">For Businesses</p>
+                        <span class="discover_p text-start">Train your employees with our gamified learning platform.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center p-3 gap-4">
+            <!-- Bottom Row -->
+            <div class="col-auto">
+                <div class="card discover_card">
+                    <div class="card-header">
+                        <img src="assets/Education.png" class="discover_section_icon">
+                    </div>
+                    <div class="card-body">
+                        <p class="discover_title poppins-light text-start">For Education</p>
+                        <span class="discover_p text-start">Enhance curriculum with interactive tools and host student speedathons.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="card discover_card">
+                    <div class="card-header">
+                        <img src="assets/Investor_Icon.png" class="discover_section_icon">
+                    </div>
+                    <div class="card-body">
+                        <p class="discover_title poppins-light text-start">For Investors</p>
+                        <span class="discover_p text-start">Invest in the future of tech talent and innovation.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- POPULAR GAMES SECTION -->
+    <div class="row mt-5 popular_games_container">
+        <div class="col-md-12" style="margin-top: 8vh;">
+            <h4 class="text-center mt-3 text-light popular_header poppins-light mb-5">Popular Games</h4>
+        </div>
+        <div class="row d-flex justify-content-center h-100 mb-5">
+            <!-- Math Premier League -->
+            <div class="col-auto mb-4">
+                <div class="card math_premier_league_card text-light text-start">
+                    <div class="card-header border-0 bg-transparent">
+                        <h5 class="mt-3">Math Premier League</h5>
+                    </div>
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="assets/E.png" alt="Math Icon" class="card-icon">
+                    </div>
+                    <div class="card-footer bg-transparent d-flex justify-content-between border-0">
+                        <div class="col-md-8 d-flex justify-content-start">
+                            <p>Solve puzzles and enhance your skills.</p>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-end align-items-center">
+                            <button class="btn btn-light popular_start_button" style="color: #00695C;">Start Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Python Challengers -->
+            <div class="col-auto mb-4 mx-md-3">
+                <div class="card python_challengers_card text-light text-start">
+                    <div class="card-header border-0 bg-transparent">
+                        <h5 class="mt-3">Python Challengers</h5>
+                    </div>
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="assets/greater_sign.png" alt="Python Icon" class="card-icon">
+                    </div>
+                    <div class="card-footer bg-transparent d-flex justify-content-between border-0">
+                        <div class="col-md-8 d-flex justify-content-start">
+                        <p>Learn Python through interactive challenges.</p>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-end align-items-center">
+                        <button class="btn btn-light popular_start_button" style="color: #6B5B95;">Start Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- AI Adventures -->
+            <div class="col-auto mb-4">
+                <div class="card ai_adventures_card text-light text-start">
+                    <div class="card-header border-0 bg-transparent">
+                        <h5 class="mt-3">AI Adventures</h5>
+                    </div>
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <img src="assets/adventure_icon.png" alt="AI Icon" class="card-icon adventure_icon">
+                    </div>
+                    <div class="card-footer bg-transparent d-flex justify-content-between border-0">
+                        <div class="col-md-8 d-flex justify-content-start">
+                            <p>Learn Python through interactive challenges.</p>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-end align-items-center">
+                            <button class="btn btn-light popular_start_button" style="color: #FFA500;">Start Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <!-- COMMUNITY SECTION -->
+    <div class="row mt-5 community_container d-flex">
+        <div class="col-md-12">
+            <h4 class="text-center mt-3 poppins-light community_header">Join a Community of Innovators</h4>
+            <p class="text-center community_p poppins-light">Learn, collaborate, and share with experts and peers to accelerate your growth.</p>
+            <p class="text-center community_p poppins-light">Explore real-world projects, join discussions, and build lasting connections.</p>
+        </div>
+        <div class="row mt-5">
+            <!-- Creators and contributors -->
+             <div class="col-md-3">
+                <h5 class="community_title">Top Creators & Contributors</h5>
+             </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="community_images"
+                            src="https://s3-alpha-sig.figma.com/img/c555/9586/df9060a33a9885f750410c96467ad720?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ialgnt2f5AetpT3wGr8s0e-l0a-FZP3MTKKxuq3xv9nStPdDNW4jagHQXEsVkkVEEuprp9B4wsZbUt8h5QD41MZiRGcy7NoAjC7YWPcmt1KMYYD8QC~u0AYDAZMWnIbi9gtOmea1f-F9iwBnDBPgUqRGHbO2XffmlIGpWMJWAtHEtw23IgxMG4lbpPmPrfV0r09JExmhc7V~5-onZuEVbTgPmZHDNBQJDF5i3Qv3INaLzrbKa13~fYUWdxTlWrsmyT-Drw6f~JIEt-EdbyDSHygJ0Hk4EIpAEnlgUTAr9FCP7vyHchjF3to9g4rNHJ0tlwdq2Vjm1SE7hJ71LBY-yQ__">
+                        <p class="community_card_name poppins-light">Jane Doe</p>
+                        <p class="community_card_desc poppins-light">Jane is a seasoned game developer with a passion for AI and educational technology.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="community_images"
+                            src="https://s3-alpha-sig.figma.com/img/c555/9586/df9060a33a9885f750410c96467ad720?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ialgnt2f5AetpT3wGr8s0e-l0a-FZP3MTKKxuq3xv9nStPdDNW4jagHQXEsVkkVEEuprp9B4wsZbUt8h5QD41MZiRGcy7NoAjC7YWPcmt1KMYYD8QC~u0AYDAZMWnIbi9gtOmea1f-F9iwBnDBPgUqRGHbO2XffmlIGpWMJWAtHEtw23IgxMG4lbpPmPrfV0r09JExmhc7V~5-onZuEVbTgPmZHDNBQJDF5i3Qv3INaLzrbKa13~fYUWdxTlWrsmyT-Drw6f~JIEt-EdbyDSHygJ0Hk4EIpAEnlgUTAr9FCP7vyHchjF3to9g4rNHJ0tlwdq2Vjm1SE7hJ71LBY-yQ__">
+                        <p class="community_card_name poppins-light">Jane Doe</p>
+                        <p class="community_card_desc poppins-light">Jane is a seasoned game developer with a passion for AI and educational technology.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="community_images"
+                            src="https://s3-alpha-sig.figma.com/img/c555/9586/df9060a33a9885f750410c96467ad720?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ialgnt2f5AetpT3wGr8s0e-l0a-FZP3MTKKxuq3xv9nStPdDNW4jagHQXEsVkkVEEuprp9B4wsZbUt8h5QD41MZiRGcy7NoAjC7YWPcmt1KMYYD8QC~u0AYDAZMWnIbi9gtOmea1f-F9iwBnDBPgUqRGHbO2XffmlIGpWMJWAtHEtw23IgxMG4lbpPmPrfV0r09JExmhc7V~5-onZuEVbTgPmZHDNBQJDF5i3Qv3INaLzrbKa13~fYUWdxTlWrsmyT-Drw6f~JIEt-EdbyDSHygJ0Hk4EIpAEnlgUTAr9FCP7vyHchjF3to9g4rNHJ0tlwdq2Vjm1SE7hJ71LBY-yQ__">
+                        <p class="community_card_name poppins-light">Jane Doe</p>
+                        <p class="community_card_desc poppins-light">Jane is a seasoned game developer with a passion for AI and educational technology.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="community_images"
+                            src="https://s3-alpha-sig.figma.com/img/c555/9586/df9060a33a9885f750410c96467ad720?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ialgnt2f5AetpT3wGr8s0e-l0a-FZP3MTKKxuq3xv9nStPdDNW4jagHQXEsVkkVEEuprp9B4wsZbUt8h5QD41MZiRGcy7NoAjC7YWPcmt1KMYYD8QC~u0AYDAZMWnIbi9gtOmea1f-F9iwBnDBPgUqRGHbO2XffmlIGpWMJWAtHEtw23IgxMG4lbpPmPrfV0r09JExmhc7V~5-onZuEVbTgPmZHDNBQJDF5i3Qv3INaLzrbKa13~fYUWdxTlWrsmyT-Drw6f~JIEt-EdbyDSHygJ0Hk4EIpAEnlgUTAr9FCP7vyHchjF3to9g4rNHJ0tlwdq2Vjm1SE7hJ71LBY-yQ__">
+                        <p class="community_card_name poppins-light">Jane Doe</p>
+                        <p class="community_card_desc poppins-light">Jane is a seasoned game developer with a passion for AI and educational technology.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Creators and contributors -->
+         <div class="row mt-5">
+            <div class="col-md-3">
+                <h5 class="community_title">What's Happening in the Community?</h5>
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="community_images ai_photo"
+                            src="../../assets/ai_photo.png">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="community_images ai_photo"
+                            src="../../assets/ai_photo.png">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="community_images ai_photo"
+                            src="../../assets/ai_photo.png">
+                    </div>
+                    <div class="col-md-3">
+                        <img class="community_images ai_photo"
+                            src="../../assets/ai_photo.png">
+                    </div>
+                </div>
+            </div>
+         </div>
+            <!-- Community events -->
+      <div class="row mt-5">
+        <div class="col-md-3">
+            <h5 class="community_title">Community Events</h5>
+        </div>
+        <div class="col-md-9">
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="event-container">
+                      <img class="community_event_image" src="assets/Component_151.png" alt="Event">
+                      <div class="static-text poppins-light ms-2">
+                        <p class="text-1">Code for change Speedathon</p>
+                        <p class="text-2">October 20th-22nd, 2024</p>
+                    </div>
+
+                      <div class="event-text">
+                          <div class="row">
+                            <div class="col-md-12 poppins-light event-header text-start ms-4"><p>Code for change Speedathon</p></div>
+                            <div class="col-md-12 poppins-light text-start ms-4"><p>Build innovative solutions to real-world challenges</p></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6 poppins-light text-start ms-4">
+                              <p class="event_date">October 20th-22nd, 2024</p>
+                              <p><img src="../../assets/person_logo.png" alt="" class="person_logo">Open to all skin levels</p>
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center poppins-light">
+                              <button class="learn_more_btn">Learn more <img src="assets/blue_arrow.png" alt="arrow" class="blue_arrow-icon" style="width: 7%;"/></button>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="event-container">
+                    <img class="community_event_image" src="assets/Component_151.png" alt="Event">
+                    <div class="static-text poppins-light ms-2">
+                      <p class="text-1">Code for change Speedathon</p>
+                      <p class="text-2">October 20th-22nd, 2024</p>
+                  </div>
+
+                    <div class="event-text">
+                        <div class="row">
+                          <div class="col-md-12 poppins-light event-header text-start ms-4"><p>Code for change Speedathon</p></div>
+                          <div class="col-md-12 poppins-light text-start ms-4"><p>Build innovative solutions to real-world challenges</p></div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6 poppins-light text-start ms-4">
+                            <p class="event_date">October 20th-22nd, 2024</p>
+                            <p><img src="../../assets/person_logo.png" alt="" class="person_logo">Open to all skin levels</p>
+                          </div>
+                          <div class="col-md-4 d-flex justify-content-center align-items-center poppins-light">
+                            <button class="learn_more_btn">Learn more <img src="assets/blue_arrow.png" alt="arrow" class="blue_arrow-icon" style="width: 7%;"/></button>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      
+      </div>
+
+    </div>
+
+    <!-- USERS SECTION -->
+    <div class="row mt-5 d-flex justify-content-center users_section blue_gradient_background">
+        <div class="col-md-8 d-flex justify-content-center p-5">
+            <div>
+                <h5 class="users_header text-center poppins-light">What Our Users Say</h5><br>
+                <p class=" text-center poppins-light users_quote">"AiSquare Studios transformed my learning experience. The interactive games made
+                    coding fun and accessible. I love watching my ELO score grow"</p>
+                <p class=" text-center poppins-light users_author">- Emily Smith</p>
+                <div class="d-flex justify-content-center">
+                    <img src="assets/dots.png" class="dots_image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- POTENTIAL SECTION -->
+    <div class="row mt-5 d-flex justify-content-center potential_container">
+        <div class="col-md-8 d-flex justify-content-center">
+            <div class="logo_wrapper">
+                <div class="circle blue_circle"></div>
+                <div class="circle pink_circle"></div>
+                <img src="assets/aisquare_blue_logo.png" class="aisquare_blue_logo" alt="Logo">
+              </div>
+              
+              
+        </div>
+        <h5 class="text-center mt-5 potential_header poppins-light">Ready to Unlock Your Potential?</h5><br>
+        <p class=" text-center mt-2 potential_p poppins-light">Join thousands of learners already transforming their skills and productivity. Get
+            started on your journey today.</p>
+        <div class="col-md-8 d-flex justify-content-center mt-4">
+            <div><button class="demo_button poppins-light">Request a demo for your team</button></div>
+            <div><button class="started_button ms-5 poppins-light">Get Started Free <img src="assets/arrow.png" alt="arrow" class="arrow-icon" style="width: 7%;"/> </button></div>
+        </div>
+    </div>
+
+   <div class="row mt-5 blue_gradient_background text-light p-5 d-flex justify-content-between footer_container">
+    <div class="col-md-2 mt-5 ms-3">
+        <p class="footer_subscribe poppins-light">Subscribe to our newsletter for updates and tips.</p>
+        <input type="email" class="footer_email" placeholder="Email">
+        <div class="form-check ps-0">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault"> I accept the Terms & Conditions </label>
+        </div>
+        <button class="join_btn subscribe_btn mt-3 poppins-light"> Subscribe <img src="assets/blue_arrow.png" alt="arrow" class="arrow-icon" /> </button>
+    </div>
+
+    <div class="col-md-2 mt-5">
+        <ul class="footer_list poppins-light">
+            <li class="list_header"><a>AISquare</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Careers</a></li>
+            <li><a>Creator Studio</a></li>
+            <li><a>Developer APIs</a></li>
+            <li><a>For Individuals</a></li>
+            <li><a>For Recruiters</a></li>
+            <li><a>For Investors</a></li>
+            <li><a>For Education</a></li>
+            <li><a>For Businesses</a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-2 mt-5">
+        <ul class="footer_list poppins-light">
+            <li class="list_header"><a>Popular Games</a></li>
+            <li><a>Math Premier League</a></li>
+            <li><a>Python Challengers</a></li>
+            <li><a>AI Adventures</a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-2 mt-5">
+        <ul class="footer_list poppins-light">
+            <li class="list_header"><a>Community</a></li>
+            <li><a>Newsletter</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Podcasts</a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-2 mt-5 me-3">
+        <ul class="footer_list poppins-light">
+            <li class="list_header"><a>More</a></li>
+            <li><a>Press</a></li>
+            <li><a>Investors</a></li>
+            <li><a>Terms</a></li>
+            <li><a>Privacy</a></li>
+            <li><a>Help</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+    </div>
+    <div class="row me-3">
+        <div class="col-md-12 d-flex justify-content-end">
+            <div class="footer_icon">
+                <a href="" class="ms-3"><img src="assets/fb_icon.png"></a>
+                <a href="" class="ms-3"><img src="assets/insta_icon.png"></a>
+                <a href="" class="ms-3"><img src="assets/linkedin_icon.png"></a>
+                <a href="" class="ms-3"><img src="assets/x_icon.png"></a>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-12 d-flex justify-content-center">
+            <img src="assets/footer_logo.png" class="footer_logo" alt="aisquare">
+        </div>
+        <p class="text-center">OpenGrowth Ventures© 2024–2028</p>
+    </div>
+</div>
 </body>
 <script src="scripts.js"></script>
 </html>
