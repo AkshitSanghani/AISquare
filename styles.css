@@ -586,7 +586,11 @@
 .text-2{
     font-size: 10px;
 }
-
+.person_logo{
+    width: 11%;
+    margin-right: 3px;
+    color: #fff;
+}
 /* Hide static text during hover */
 .event-container:hover .static-text {
     opacity: 0;
