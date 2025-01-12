@@ -660,11 +660,15 @@
     }
 }
 .footer_container{
+    padding: 70px;
+    .community_footer{
+        width: 10%;
+    }
     ul{
         list-style: none;
     }
     li{
-        font-size: 18px;
+        font-size: 15px;
         margin-top: 16px;
         font-weight: 400 !important;
         cursor: pointer;
@@ -677,7 +681,7 @@
         color: #fff;
         font-weight: 400 !important;
         margin-bottom: 16px;
-        font-size: 18px;
+        font-size: 15px;
         margin-top: 16px;
     }
     .footer_email {
