@@ -83,6 +83,10 @@
     font-weight: 400 !important;
     font-size: 14px;
 }
+.logo_section_links:hover{
+    text-decoration: underline;
+    text-decoration-color: #0A2540;
+}
 .join_btn{
     background-color: var(--button-bg);
     color: #fff;
@@ -219,17 +223,17 @@
     position: relative;
 }
 .stroke_logo{
-    bottom: 248vh;
-    left: 58vw;
+    bottom: 335vh;
+    left: 57.2vw;
     z-index: 1;
 }
-.stroke_logo2{
-    bottom: 43vh;
-    right: 44vw;
+.stroke_logo2 {
+    bottom: 45vh;
+    right: 45vw;
 }
 .stroke_logo3{
-    bottom: 168vh;
-    left: 29vw;
+    bottom: 232vh;
+    left: 26.7vw;
 }
 .learning_section_links{
     margin-left: 30px;
