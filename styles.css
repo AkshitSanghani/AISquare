@@ -634,6 +634,9 @@
 .users_section{
     border-radius: 5px;
     color: #fff;
+    height: 500px !important;
+    display: flex;
+    align-items: center;
     .users_header{
         font-weight: 600 !important;
         font-size: 43.51px;
@@ -659,6 +662,34 @@
         font-size: 20.26px;
     }
 }
+/* Carousel images start */
+.slick-slider-sec {
+    height: 290px;
+}
+.slick-slider-sec .carousel-inner {
+    overflow: visible;
+}
+
+.slick-slider-sec .slider-title-content {
+    margin-bottom: 80px;
+}
+.slick-slider-sec .carousel-indicators button {
+    border-radius: 70px;
+    width: 5px;
+    height: 5px;
+    border: 0;
+}
+.slick-slider-sec .carousel-indicators button.active {
+    height: 5px;
+    width: 10px;
+}
+.slick-slider-sec .carousel-control-prev {
+    display: none;
+}
+.slick-slider-sec .carousel-control-next {
+    display: none;
+}
+/* Carousel images end */
 .footer_container{
     padding: 70px;
     .community_footer{

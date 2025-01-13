@@ -11,6 +11,7 @@
         crossorigin="anonymous"></script>
     <title>Akshit Sanghani AISquare</title>
     <link rel="stylesheet" href="styles.css">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -675,19 +676,65 @@
     </div>
 
     <!-- USERS SECTION -->
-    <div class="row mt-5 d-flex justify-content-center users_section blue_gradient_background">
-        <div class="col-md-8 d-flex justify-content-center p-5">
-            <div>
-                <h5 class="users_header text-center poppins-light">What Our Users Say</h5><br>
-                <p class=" text-center poppins-light users_quote">"AiSquare Studios transformed my learning experience. The interactive games made
-                    coding fun and accessible. I love watching my ELO score grow"</p>
-                <p class=" text-center poppins-light users_author">- Emily Smith</p>
-                <div class="d-flex justify-content-center">
-                    <img src="assets/dots.png" class="dots_image">
-                </div>
-            </div>
+<section class="slick-slider-sec users_section blue_gradient_background mt-5">
+  <div class="container">
+    <h5 class="users_header text-center poppins-light">What Our Users Say</h5>
+    <div class="row mt-5 d-flex justify-content-center">
+      <div class="col-md-12 d-flex justify-content-center p-5 slider-title-content">
+        <div>
+          <!-- <p class=" text-center poppins-light users_quote">"AiSquare Studios transformed my learning experience. The interactive games made
+          coding fun and accessible. I love watching my ELO score grow"</p>
+          <p class=" text-center poppins-light users_author">- Emily Smith</p>
+          <div class="d-flex justify-content-center">
+          <img src="assets/dots.png" class="dots_image">
+          </div> -->
         </div>
+      </div>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators carousel-slider">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            
+            <div class="carousel-caption d-none d-md-block">
+              <p class=" text-center poppins-light users_quote">"AiSquare Studios transformed my learning experience. The interactive games made
+                coding fun and accessible. I love watching my ELO score grow"</p>
+            <p class=" text-center poppins-light users_author">- Emily Smith</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+               <p class=" text-center poppins-light users_quote">"AiSquare Studios transformed my learning experience. The interactive games made
+                coding fun and accessible. I love watching my ELO score grow"</p>
+            <p class=" text-center poppins-light users_author">- Emma Thomson</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+               <p class=" text-center poppins-light users_quote">"AiSquare Studios transformed my learning experience. The interactive games made
+                coding fun and accessible. I love watching my ELO score grow"</p>
+            <p class=" text-center poppins-light users_author">- Jack Brown</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>     
+
     </div>
+  </div>
+</section>     
 
     <!-- POTENTIAL SECTION -->
     <div class="row mt-5 d-flex justify-content-center potential_container">
@@ -783,4 +830,13 @@
 </div>
 </body>
 <script src="scripts.js"></script>
+
+<script>
+  var myCarousel = document.querySelector('#myCarousel')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 2000,
+  wrap: false
+})
+</script>
+
 </html>
