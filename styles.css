@@ -662,7 +662,7 @@
         font-size: 20.26px;
     }
 }
-/* Carousel images start */
+
 .slick-slider-sec {
     height: 290px;
 }
@@ -689,7 +689,7 @@
 .slick-slider-sec .carousel-control-next {
     display: none;
 }
-/* Carousel images end */
+
 .footer_container{
     padding: 70px;
     .community_footer{
